@@ -1,0 +1,169 @@
+body
+{
+    background-image: url(nature.png);
+    background-repeat: repeat;
+}
+
+
+
+.usercontainer{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.usercontainer:hover{
+    box-shadow: 5px 5px #000;
+}
+
+#head{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  text-shadow: 5px 5px 10px #000;
+}
+
+.container:hover {
+  box-shadow: 10px 10px;
+}
+
+.about{
+    width: 100%;
+}
+
+.complaint{
+    height: 200px;
+}
+.about, .complaint
+{
+
+    width: 100%;
+    border: none;
+    opacity: 0.5;
+    margin-top: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+}
+.about:hover, .complaint:hover
+{
+    opacity: 0.6;
+}
+
+label.user{
+    display:block;
+    font-size: 30px; margin-top:30px;
+}
+
+li.navbar
+{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+}
+
+li.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    height: 50px;
+    transition: width 0s, height 0.5s;
+    background-color: #000;
+    opacity:0.5;
+    padding: 50px 50px 50px 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+li.navbar a:hover {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    box-shadow: 5px 5px #505050;
+}
+li.navbar a:active { 
+    background-color: black;
+    color: white;
+}
+
+li.logout
+{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+}
+
+li.logout a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: width 0s, height 0.5s;
+    background-color: #000;
+    opacity:0.5;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px auto auto 10px;
+    opacity: 0.8;
+}
+
+button:hover {
+    background-color: #ADFF2F;
+    color: #000;
+}
+
+.profile{
+    width: 50%;
+    margin: auto;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.profile:hover{
+    box-shadow: 5px 5px #000;
+}
+
+.profile label{
+    padding: 50px;
+    size: 25px;
+}
+
+.profile input{
+    padding: 15px;
+    margin: 20px;
+    size: 25px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #000;
+    border:0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.show{
+    background-color: #000;
+    color: #fff;
+    opacity: 0.6;
+    padding: 30px;
+}
+
+.show th, .show td{
+    padding: 20px 10px;
+}

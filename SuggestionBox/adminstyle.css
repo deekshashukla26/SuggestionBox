@@ -1,0 +1,208 @@
+* {box-sizing: border-box}
+body{
+  font-family: Georgia, Times New Roman, Serif;
+  background-color: #DBDBDB;
+  background-position: center;
+}
+#head{
+  text-align: center;
+  color: #935000;
+  text-decoration: none;
+  padding: 0 0 0 0;
+  text-shadow: 5px 5px 10px #fff;
+}
+/*************************  L O G I N   ***************************/
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #808080;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+form {margin: auto; width: 70%;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+label[for=uname], label[for=psw]{
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.container {
+  padding: 20px;
+  background-color: #935000;
+  opacity:0.8;
+    border: solid 1px black;
+}
+
+.container:hover {
+  opacity: 0.9;
+  box-shadow: 10px 10px;
+}
+
+form.rest:hover{
+  opacity: 0.9;
+  box-shadow: 10px 10px;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 14px 20px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/************************  P R O F I L E **********************************/
+
+.profile{
+    background-color: #dbdbdb;
+    width: 50%;
+    margin: auto auto 10px auto;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.profile:hover{
+    box-shadow: 5px 5px #000;
+}
+
+.profile label{
+    padding: 20px;
+    size: 20px;
+    color: #000;
+    text-shadow: 5px 5px 10px #fff;
+}
+
+.profile input{
+    padding: 15px;
+    margin: 10px;
+    size: 25px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #000;
+    border:0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.profile input[type=text]:focus{
+    background-color: #FFF;
+    color: #000;
+    outline: none;
+}
+
+.show{
+    background-color: #000;
+    color: #fff;
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.show th, .show td{
+    padding: 20px 10px;
+}
+
+
+li.logout
+{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+}
+
+li.logout a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: width 0s, height 0.5s;
+    background-color: #000;
+    opacity:0.5;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+li.navbar
+{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+}
+
+li.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    height: 100px;
+    transition: width 0s, height 0.5s;
+    background-color: #000;
+    opacity:0.5;
+    padding: 40px 50px 50px 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid #DBDBDB;
+    box-shadow: 10px 10px #dbdbdb;
+    text-shadow: 5px 5px 10px #000;
+}
+
+li.navbar a:hover {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 5px 5px #000;
+    border: 1px solid #000;
+}
+li.navbar a:active { 
+    background-color: black;
+    color: white;
+}
+
+.submit{
+  border-radius: 10px;
+  color: #fff;
+  margin: 10px auto auto auto;
+  background-color: #000;
+
+}
